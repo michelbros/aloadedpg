@@ -4,9 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" />
   </head>
   <body>
-    <h1>Fineeee</h1>
+    <main>
+      <form action="send.js" method="post">
+        <label for="artistName">Artist</label>
+        <input type="text" name="artist_name" id="artistName" />
+        <label for="releaseTitle">Release Title</label>
+        <input type="text" name="release_title" id="releaseTitle" />
+        <label for="genreSelect">Genre</label>
+        <select name="genre_select" id="genreSelect">
+          <option value="alternative">Alternative</option>
+          <option value="pop">Pop</option>
+          <option value="rock">Rock</option>
+          <option value="hiphop">Hip Hop</option>
+        </select>
+        <label for="releaseDate">Release Date</label>
+        <input type="date" name="release_date" id="releaseDate" />
+        <label for="composerName">Composer</label>
+        <input type="text" name="composer_name" id="composerName" />
+        <label for="lyricistName">Lyricist (Author/Text Writer)</label>
+        <input type="text" name="lyricist_name" id="lyricistName" />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
   </body>
 </html>
