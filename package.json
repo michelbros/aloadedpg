@@ -1,0 +1,15 @@
+{
+  "name": "aloaded_test",
+  "version": "1.0.0",
+  "description": "web service developed for aloaded",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.19.0"
+  }
+}
