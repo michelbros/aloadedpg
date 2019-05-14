@@ -4,10 +4,5 @@ const app = express();
 // Middleware
 app.use(express.static('public'));
 
-// Route
-app.get('/', function(req, res) {
-  res.send('Hello!');
-});
-
 // Listen
-app.listen(3000);
+app.listen(3000, () => console.log('App is running'));
