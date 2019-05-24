@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-// Middleware
+// Serve the public static files
 app.use(express.static('public'));
 
 // Listen
